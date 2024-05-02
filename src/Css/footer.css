@@ -1,0 +1,59 @@
+
+.footer{
+    display: flex;
+  background: #e5f9f8
+
+}
+.footerh2{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    min-height: 40px;
+}
+
+.A1 li{
+    display: block;
+    padding: 0px 0px 16px;
+
+}
+.A1 li a{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+  text-decoration:none;
+}
+
+.footer{
+    justify-content: space-between;
+    margin-top: 80px;
+    padding: 72px 155px 112px 70px ;
+
+}
+
+.lowerfooter{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 40px 100px 40px;
+   background: #e5f9f8
+}
+.social-icons{
+  margin-top: 26px;
+}
+.lf2 ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+
+}
+.lf2 ul li{
+    margin: 6px;
+}
+
+.fa-brands{
+  font-size:45px;
+  padding-right:16px;
+}
+.logo2{
+  width:220px;
+}

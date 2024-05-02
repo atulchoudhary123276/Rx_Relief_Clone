@@ -1,0 +1,74 @@
+*{
+  font-size: 14px;
+  font-family: Inter,sans-serif;
+}
+.banner{
+  background:#162c2a ;
+  height: 180px;
+  width: 100%;
+  margin-top: 38px;
+
+}
+.title {
+  font-size: 30px;
+  margin-bottom: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #fff;
+}
+.Search {
+  width: 100%;
+  border: 1px solid #e7e7e7;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  padding: 10px 16px;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  justify-content: flex-start;
+  -webkit-justify-content: flex-start;
+  flex-direction: row;
+  background: #f7f7f7;
+}
+.SearchInput {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  height: 100%;
+}
+.SearchSpan::before{
+  content: '\1F50D';
+}
+@media (min-width: 768px){
+.insidebanner {
+  max-width: 1340px;
+  height: 100%;
+  margin: 0 auto;
+  background-image: url(https://images.apollo247.in/images/ui_revamp_searchBanner1.svg),url(https://images.apollo247.in/images/ui_revamp_searchBanner2.svg);
+  background-position: 0 100%,100% 100%;
+  background-repeat: no-repeat;
+}
+
+.buyMedicineTitle{
+  padding: 24px 0;
+  margin: 0 auto;
+  max-width: 628px;
+  text-align: center;
+}
+
+.Search {
+  height: 40px;
+}
+.HomeContainer>div>span {
+  height: 24px;
+  width: 24px;
+  font-size: 24px;
+}
+.Search .SearchSpn.SearchSpan {
+  margin-right: 14px;
+  cursor: pointer;
+}
+}

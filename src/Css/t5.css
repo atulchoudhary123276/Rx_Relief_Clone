@@ -1,0 +1,110 @@
+*{
+    font-size: 14px;
+    font-family: Inter,sans-serif;
+}
+.GridSection{
+    
+    /* margin-bottom: px; */
+    font-size: 14px;
+    color: #121414;
+    font-weight: 400;
+    width: 100%;
+    max-width: 1276px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px 15px 0;
+    min-height: 500px;
+}
+.sectionTop {
+    display: flex;
+    display: -webkit-flex;
+    align-items: flex-start;
+    -webkit-align-items: flex-start;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    flex-direction: row;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+@media (min-width: 768px){
+    .sectionHeading {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.vz .wz .xz {
+    height: 147px;
+    width: 147px;
+    margin-bottom: 26px;
+}
+.vz .wz .yz {
+    font-size: 16px;
+    line-height: 19px;
+}
+}
+.GridMain{
+    display: grid;
+    grid-gap: 6px;
+    grid-auto-flow: row;
+    width: 100%;
+
+    grid-template-columns: repeat(auto-fit, minmax(calc(20% - 16px), 1fr));
+    gap: 16px;
+}
+.GridMain .Grid_Item {
+    background: #fff;
+    min-height: 30px;
+    justify-self: center;
+    width: 100%;
+}
+.vz {
+    width: 100%;
+}
+.wz {
+    word-break: break-word;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* position: relative; */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+    color: inherit;
+    outline: 0;
+    display: inline-block;
+}
+.vz .wz .xz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: #f6f6f6;
+    cursor: pointer;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    max-width: 100%;
+}
+.vz .wz .xz>img {
+    max-width: 100%;
+    max-height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+.vz .wz .yz {
+    font-weight: 400;
+    color: #121414;
+    cursor: pointer;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-align: center;
+}
